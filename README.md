@@ -98,13 +98,13 @@ Ensure the following are installed:
 
 2. **Install Node.js Dependencies**
   Run the following command to install the Node.js dependencies:
-  ```bash
+   
   npm install
 
 3. **Set Up PostgreSQL Database**
 - Start the PostgreSQL server.
 - Create a new database for the project:
-```bash
+
 CREATE DATABASE Abits;
 - Create the necessary tables by running the SQL commands provided in the server.js file or using a database management tool like pgAdmin.
 
@@ -120,13 +120,13 @@ DB_PORT=5432
 
 5. **Run the Backend Server**
 - Start the backend server by running the following command:
-```bash
+  
 node server.js
 - The server should start running on http://localhost:3001.
 
 6. **Run the Frontend Application**
 - Run the following command to start the frontend application:
-```bash
+- 
 npm start
 - The frontend application should start running on http://localhost:3000.
 
