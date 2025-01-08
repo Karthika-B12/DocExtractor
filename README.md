@@ -93,9 +93,6 @@ Ensure the following are installed:
 
 ### Step-by-Step Guide
 1. **Clone the Repository**
-   ```bash
-   git clone <repository-url>
-
   
 
 2. **Install Node.js Dependencies**
