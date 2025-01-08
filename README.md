@@ -96,38 +96,46 @@ Ensure the following are installed:
    ```bash
    git clone <repository-url>
 
+  
+
 2. **Install Node.js Dependencies**
   - Run the following command to install the Node.js dependencies:
-   npm install
+  - npm install
+    
 
 3. **Set Up PostgreSQL Database**
 - Start the PostgreSQL server.
 - Create a new database for the project:
-
-CREATE DATABASE Abits;
+- CREATE DATABASE Abits;
 - Create the necessary tables by running the SQL commands provided in the server.js file or using a database management tool like pgAdmin.
+
+  
 
 4. **Configure Environment Variables**
 - Create a .env file in the root directory of the project.
 - Add the following environment variables:
 
-DB_USER=postgres
-DB_HOST=localhost
-DB_DATABASE=Abits
-DB_PASSWORD=root
-DB_PORT=5432
+- DB_USER=postgres
+- DB_HOST=localhost
+- DB_DATABASE=Abits
+- DB_PASSWORD=root
+- DB_PORT=5432
+
+  
 
 5. **Run the Backend Server**
 - Start the backend server by running the following command:
-  
-node server.js
+- node server.js
 - The server should start running on http://localhost:3001.
+
+  
 
 6. **Run the Frontend Application**
 - Run the following command to start the frontend application:
-- 
-npm start
+- npm start
 - The frontend application should start running on http://localhost:3000.
+
+  
 
 7. **Access the Application**
 - Open a web browser and go to http://localhost:3000.
@@ -138,5 +146,5 @@ npm start
 ## Additional Steps
 
 ### Testing API Endpoints
-Use Postman to test the API endpoints defined in the server.js file.
-Ensure that the endpoints are working correctly by sending requests and verifying the responses.
+- Use Postman to test the API endpoints defined in the server.js file.
+- Ensure that the endpoints are working correctly by sending requests and verifying the responses.
