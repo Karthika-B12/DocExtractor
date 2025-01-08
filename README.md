@@ -97,9 +97,8 @@ Ensure the following are installed:
    git clone <repository-url>
 
 2. **Install Node.js Dependencies**
-  Run the following command to install the Node.js dependencies:
-   
-  npm install
+  - Run the following command to install the Node.js dependencies:
+   npm install
 
 3. **Set Up PostgreSQL Database**
 - Start the PostgreSQL server.
@@ -134,7 +133,10 @@ npm start
 - Open a web browser and go to http://localhost:3000.
 - The login page of the application should be visible.
 
-##Additional Steps
-###Testing API Endpoints
+---
+
+## Additional Steps
+
+### Testing API Endpoints
 Use Postman to test the API endpoints defined in the server.js file.
 Ensure that the endpoints are working correctly by sending requests and verifying the responses.
